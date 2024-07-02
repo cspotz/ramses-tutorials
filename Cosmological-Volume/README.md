@@ -35,4 +35,4 @@ leading to an executable that can be used to solve the non-linear Poisson equati
 At that stage, the simulation should be finished and folders of the type `output_00002` should have been generated.
 ## Data analysis out the output generated:
 We will work in python and use (among others) [Pylians](https://pylians3.readthedocs.io/en/master/index.html) and [yt](https://yt-project.org/), to install them, some usefull information may be found  [here](https://pylians3.readthedocs.io/en/master/installation.html) and [here](https://yt-project.org/doc/installing.html).
-We will now follow this  [notebook](./cosmology_ramses.ipynb) to analyse the data produced by the simulation.
+We will now follow this  [notebook](https://github.com/cspotz/ramses-tutorials/blob/main/Cosmological-Volume/cosmology_ramses.ipynb) to analyse the data produced by the simulation.
