@@ -14,7 +14,7 @@ Once this step performed, it should be possible to install monofonic doing
    make
    ```
 leading to an executable.
-We now  can be use it generate initial condition using for instance the file [monofonic.conf](./monofonic.conf):
+We now  can be use it generate initial condition using for instance the file [monofonic.conf](https://github.com/cspotz/ramses-tutorials/blob/main/Cosmological-Volume/monofonic_file/monofonic.conf):
    ```
    ./build/monofonIC /monofonic.conf
    ```
@@ -28,7 +28,7 @@ We will use [RAMSES](https://github.com/ramses-organisation/ramses) that needs a
    make clean
    make NDIM=3
    ```
-leading to an executable that can be used to solve the non-linear Poisson equation for instance the file [ramses.nml](./ramses.nml), to run
+leading to an executable that can be used to solve the non-linear Poisson equation for instance the file [ramses.nml](https://github.com/cspotz/ramses-tutorials/blob/main/Cosmological-Volume/ramses_file/ramses.nml), to run
   ```
   bin/ramses3d namelist/ramses.nml
   ```
